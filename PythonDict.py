@@ -80,4 +80,8 @@ print(myfamily.values())
 print(myfamily.keys())
 print((myfamily.items()))
 
+# Empty Dictionary
+
+empty_dic = {}
+
 
