@@ -1,7 +1,7 @@
-print("Enter the heights of syudents")
-heights=input("Heights are").split()
-total_height=int(0)
-no_of_stu=int(0)
+print("Enter the heights of students")
+heights = input("Heights are").split()
+total_height = int(0)
+no_of_stu = int(0)
 current_max_number = heights[0]
 
 for x in heights:

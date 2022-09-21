@@ -16,7 +16,7 @@ else:
 # Exercise 2 - Output in Title Case
 
 input_str = ['VARMA', 'raj', 'Gupta', 'SaNdeeP']
-input_str = str(input_str)
+#input_str = str(input_str)
 print(type(input_str))
 
 #
@@ -27,6 +27,20 @@ print(type(input_str))
 # print(input_str)
 
 import stringcase
-title_case = stringcase.camelcase(input_str)
+title_case = stringcase.titlecase(input_str)
 print(title_case)
+
+#stringcase.titlecase()
+
+# m=int(input_list[0])
+# for i in input_list:
+#     if i<m :
+#         m=i
+# print(m)
+check = 4
+avg = 6
+if check > avg:
+    print("True")
+else:
+    print("False")
 
